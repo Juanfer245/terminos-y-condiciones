@@ -1,0 +1,82 @@
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<section id="wrapper" class="login-register login-sidebar"
+    style="background-image:url(./assets/images/background/img/merican5.jpeg);">
+    <div class="login-box card" style="margin-right: 500px;height: 650px; margin-top: 25px; border-radius: 15px; width: 30%;">
+        <div class="card-body">
+            <form class="form-horizontal form-material" id="loginform" action="index.html">
+                <a href="javascript:void(0)" class="text-center db"><img src="../../../assets/images/logo.png"
+                        alt="Home" style="height: 80px; margin-top: 5px;" /><br /></a>
+                <h3 class="box-title m-t-40 m-b-0">Regístrate ahora</h3><small>Crea tu cuenta y disfruta</small>
+                <div class="form-group m-t-20">
+                    <div class="col-xs-12">
+                        <input class="form-control" type="text" required="" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-xs-12">
+            <input class="form-control" type="email" id="email"  placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-xs-12">
+                        <input class="form-control" type="password" id="" required="" placeholder="Contraseña">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <input class="form-control" type="password" required="" placeholder="Confirmar Contraseña">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <div class="checkbox checkbox-primary p-t-0">
+                            <!--Boton-->
+                            <div class="boton-modal">
+                                <label for="btn-modal">
+                                    Terminos y Condiciones
+                                </label>
+                                <div id="bt" class="form-group text-center">
+                                    <div class="col-xs-12">
+                                        <a href="login" class="text-dark m-l-5">Inscribirse</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Fin de Boton-->
+                        </div>
+                    </div>
+                </div>
+                <div id="ses" class="form-group m-b-0">
+                    <div class="col-sm-12 text-center">
+                        <p>Ya tienes una cuenta? <a href="login"
+                                class="text-info m-l-5"><b>Iniciar Sesión</b></a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!--Ventana Modal-->
+<input type="checkbox" id="btn-modal">
+<div class="container-modal">
+    <div class="content-modal">
+        <h2><b>Terminos y condiciones</b></h2>
+        <p>Esta página web es propiedad de 5 estudiantes de la carrera de desarrollo de software
+            del 4to semestre y está operado por [Erika Cuadros, Michelle Aguirre, Juan Tipan,
+            Anderson Machado, Kevin Saltos]. Estos Términos establecen los términos y condiciones
+            bajo los cuales tú puedes usar nuestra página web y servicios ofrecidos por nosotros.
+            Esta página web ofrece a los visitantes [una variedad de cursos de baile]. Al acceder o
+            usar la página web de nuestro servicio, usted aprueba que haya leído, entendido y
+            aceptado estar sujeto a estos Términos <a href="">ver más</a>
+        </p>
+        <div class="btn-cerrar">
+            <label for="btn-modal">Cerrar</label>
+        </div>
+    </div>
+    <label for="btn-modal" class="cerrar-modal"></label>
+</div>
+<!--Fin de Ventana Modal-->
